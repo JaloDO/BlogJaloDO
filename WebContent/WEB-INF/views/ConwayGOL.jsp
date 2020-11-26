@@ -9,8 +9,8 @@
   		<meta name="author" content="">
 		<title>CONWAY'S GAME OF LIFE</title>
 		<!-- BOOTSTRAP CSS SOURCE-->
-		<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="resources/csscode/ConwayGOL.css" />
+		<link rel="stylesheet" href="..//resources/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="..//resources/csscode/ConwayGOL.css" />
 	</head>
 
 	<body>
@@ -18,6 +18,7 @@
 		</div>
 		
 		<!-- SCRIPT JS PARA EJECUCION DE LA PAGINA -->
-		<script src="resources/jscode/ConwayGOL.js"></script>
+		<script src="/resources/jscode/p5.js"></script>
+		<script src="/resources/jscode/ConwayGOL.js"></script>
 	</body>
 </html>
