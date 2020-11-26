@@ -11,14 +11,19 @@
 		<!-- BOOTSTRAP CSS SOURCE-->
 		<link rel="stylesheet" href="..//resources/bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="..//resources/csscode/ConwayGOL.css" />
+		<!-- P5 JS SOURCE -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    	
 	</head>
 
 	<body>
 		<div id="gridContainer">
+			<!-- SCRIPT JS PARA EJECUCION DE LA PAGINA -->
+			<script src="/resources/jscode/ConwayGOL.js"></script>
 		</div>
 		
-		<!-- SCRIPT JS PARA EJECUCION DE LA PAGINA -->
-		<script src="/resources/jscode/p5.js"></script>
-		<script src="/resources/jscode/ConwayGOL.js"></script>
+		
 	</body>
 </html>
