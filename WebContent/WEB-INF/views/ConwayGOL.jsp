@@ -19,11 +19,14 @@
 	</head>
 
 	<body>
-		<div id="gridContainer">
-			<!-- SCRIPT JS PARA EJECUCION DE LA PAGINA -->
-			<script src="/resources/jscode/ConwayGOL.js"></script>
-		</div>
-		
-		
-	</body>
+      <header>
+        <input id="button1" type="button" onclick="inGame()" value="RANDOM"/>
+      </header>
+      <div id="container">
+        <p id="parrafo"></p>
+      </div>
+      
+    
+  </body>
+  <script src="sketch.js"></script>
 </html>
