@@ -1,15 +1,8 @@
-/**
- * @title CONWAY's GAME OF LIFE
- * @description Código fuente para la ejecución del juego de la vida de Conway en entorno web con javascript
- * @author ALEJANDRO DÍAZ OBREGÓN
- */
-
 let grid;
 let cols;
 let rows;
 let resolution = 10;
 const b1Value = document.querySelector("#button1");
-const container = document.getQuerySelector("#container");
 const p = document.querySelector("#parrafo");
 
 function initialization(){
@@ -123,19 +116,19 @@ function setup(){
 *********************************************************************************/
 
 function resumeGame(event){
-	  b1Value.value = "PAUSE";
-	  loop();
-	}
-	function pauseGame(event){
-	  b1Value.value = "RESUME";
-	  noLoop();
-	}
+  b1Value.value = "PAUSE";
+  loop();
+}
+function pauseGame(event){
+  b1Value.value = "RESUME";
+  noLoop();
+}
 
 
-	  document.onmousemove = dotheother;
+  document.onmousemove = dotheother;
 
 
-	function dotheother(event){
-	  p.innerHTML = event.offsetX + " - " + event.offsetY;
-	}
+function dotheother(event){
+  p.innerHTML = event.offsetX + " - " + event.offsetY;
+}
 

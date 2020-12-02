@@ -23,7 +23,7 @@
         <input id="button1" type="button" onclick="inGame()" value="RANDOM"/>
       </header>
       <div id="container">
-        <p id="parrafo"></p>
+        <p id="parrafo">Aqui: </p>
       </div>
       
     
